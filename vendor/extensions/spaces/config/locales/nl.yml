@@ -1,0 +1,34 @@
+nl:
+  refinery:
+    plugins:
+      spaces:
+        title: Spaces
+    spaces:
+      admin:
+        spaces:
+          actions:
+            create_new: Maak een nieuwe Space
+            reorder: Wijzig de volgorde van de Spaces
+            reorder_done: Klaar met het wijzingen van de volgorde van de Spaces
+          records:
+            title: Spaces
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Spaces. Druk op 'Maak een nieuwe Space' om de eerste aan te maken.
+          space:
+            view_live_html: Bekijk deze space op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze space
+            delete: Verwijder deze space voor eeuwig
+      spaces:
+        show:
+          other: Andere Spaces
+  activerecord:
+    attributes:
+      'refinery/spaces/space':
+        owner: Owner
+        address: Address
+        name: Name
+        phone: Phone
+        hours: Hours
+        email: Email
+        desription: Desription
+        photo: Photo

@@ -1,0 +1,31 @@
+nb:
+  refinery:
+    plugins:
+      renters:
+        title: Renters
+    renters:
+      admin:
+        renters:
+          actions:
+            create_new: Lag en ny Renter
+            reorder: Endre rekkefølgen på Renters
+            reorder_done: Ferdig å endre rekkefølgen Renters
+          records:
+            title: Renters
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Renters enda. Klikk på "Lag en ny Renter" for å legge til din første renter.
+          renter:
+            view_live_html: Vis hvordan denne renter ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne renter
+            delete: Fjern denne renter permanent
+      renters:
+        show:
+          other: Andre Renters
+  activerecord:
+    attributes:
+      'refinery/renters/renter':
+        name: Name
+        email: Email
+        phone: Phone
+        bio: Bio
+        photo: Photo

@@ -1,0 +1,31 @@
+en:
+  refinery:
+    plugins:
+      renters:
+        title: Renters
+    renters:
+      admin:
+        renters:
+          actions:
+            create_new: Add New Renter
+            reorder: Reorder Renters
+            reorder_done: Done Reordering Renters
+          records:
+            title: Renters
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Renters yet. Click "Add New Renter" to add your first renter.
+          renter:
+            view_live_html: View this renter live <br/><em>(opens in a new window)</em>
+            edit: Edit this renter
+            delete: Remove this renter forever
+      renters:
+        show:
+          other: Other Renters
+  activerecord:
+    attributes:
+      'refinery/renters/renter':
+        name: Name
+        email: Email
+        phone: Phone
+        bio: Bio
+        photo: Photo

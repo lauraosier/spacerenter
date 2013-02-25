@@ -1,0 +1,33 @@
+zh-CN:
+  refinery:
+    plugins:
+      renters:
+        title: Renters
+    renters:
+      admin:
+        renters:
+          actions:
+            create_new: 建立新的 Renter
+            reorder: 对 Renters 重新排序
+            reorder_done: 对 Renters 的重新排序结束
+          records:
+            title: Renters
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Renters yet. Click "Add New Renter" to add your first renter.
+            no_items_yet: 目前没有 Renters . 点击 "Add New Renter" 创建一个renter.
+          renter:
+            view_live_html: 查看 renter 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 renter
+            delete: 永久删除 renter
+      renters:
+        show:
+          other: 其他 Renters
+  activerecord:
+    attributes:
+      'refinery/renters/renter':
+        name: Name
+        email: Email
+        phone: Phone
+        bio: Bio
+        photo: Photo

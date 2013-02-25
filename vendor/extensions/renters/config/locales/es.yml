@@ -1,0 +1,32 @@
+es:
+  refinery:
+    plugins:
+      renters:
+        title: Renters
+#        article: masculino/femenino
+    renters:
+      admin:
+        renters:
+          actions:
+            create_new: Crear nuevo renter
+            reorder: Reordenar renters
+            reorder_done: Reordenación de renters completada
+          records:
+            title: Renters
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay renters todavía. Pulsa en "Crear nuevo Renter" para crear tu primer renter.
+          renter:
+            view_live_html: Ver este renter como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este renter
+            delete: Borrar este renter para siempre
+      renters:
+        show:
+          other: Otros renters
+  activerecord:
+    attributes:
+      'refinery/renters/renter':
+        name: Name
+        email: Email
+        phone: Phone
+        bio: Bio
+        photo: Photo
